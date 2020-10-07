@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300&family=Oswald:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css" />
     <title>
       Pogromcy Prądu - Elektrycy, którym warto ufać - Obszar: woj. Dolnośląskie
@@ -19,31 +20,39 @@
   </head>
   <body>
     <nav class="black">
-      <div class="container">
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">Pogromcy Prądu </a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-            ><i class="material-icons">menu</i></a
-          >
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#">Usługi</a></li>
-            <li><a href="#">Zdjęcia</a></li>
-            <li><a href="#">Kontakt</a></li>
-          </ul>
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Pogromcy Prądu </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+              ><i class="material-icons">menu</i></a
+            >
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="#services">Usługi</a></li>
+              <li><a href="#where">Obszar</a></li>
+              <li><a href="#emergency">Awarie</a></li>
+              <li> <a class="white black-text waves-effect waves-dark btn">Tel: 720 124 124</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    <!-- Mobile nav -->
     <ul class="sidenav" id="mobile-demo">
-      <li><a href="#">Usługi</a></li>
-      <li><a href="#">Zdjęcia</a></li>
+        <li><a href="#services">Usługi</a></li>
+        <li><a href="#where">Obszar</a></li>
+        <li><a href="#emergency">Awarie</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+        <li><a>Tel. 720 124 124</a></li>
       <li>
-        <a href="mailto:kontakt@pogromcypradu.pl">kontakt@pogromcypradu.pl</a>
+        <a href="mailto:pogromcypradu@gmail.com">pogromcypradu@gmail.com</a>
       </li>
-      <li><a>Tel. 720 124 124</a></li>
+      
     </ul>
-
-    <div class="row container feature">
-      <div class="col s12 m6 l6 ">
+<!-- Main section -->
+    <div class="container row feature">
+        <div class="col s12 l6 hide-on-small-only">
+            <img src="img/feature2.jpg" class="responsive-img" />
+          </div>
+      <div class="col s12 l6">
         <h1>Instalacja elektryczna</h1>
         <p>
           Instalacja elektryczna wykonana zgodnie z przepisami przez
@@ -51,12 +60,10 @@
           powierzać swojego zdrowia, życia i dobytku nieodpowiednim osobom.
         </p>
       </div>
-      <div class="col s12 m6 l6">
-        <img src="img/feature2.jpg" class="responsive-img" />
-      </div>
     </div>
+
     <div class="row container">
-      <div class="col">
+      <div class="col" id="services">
         <h2>Nasze usługi</h2>
         <p>
           <ul>Zajmujemy się szeroko rozumianą "elektryką":</ul>
@@ -99,31 +106,45 @@
         <img src="/img/zdjecie2.jpg" alt="" class="responsive-img" />
       </div>
       <div class="col s6 m3 l3">
-        <img src="/img/zdjecie4.jpg" alt="" class="responsive-img" />
+        <img src="/img/zdjecie12.jpg" alt="" class="responsive-img" />
       </div>
       <div class="col s6 m3 l3">
         <img src="/img/zdjecie5.jpg" alt="" class="responsive-img" />
       </div>
     </div>
+    <div class="row">
+        <div class="col s6 m3 l3">
+          <img src="/img/zdjecie6.jpg" alt="" class="responsive-img" />
+        </div>
+        <div class="col s6 m3 l3">
+          <img src="/img/zdjecie10.jpg" alt="" class="responsive-img" />
+        </div>
+        <div class="col s6 m3 l3">
+          <img src="/img/zdjecie4.jpg" alt="" class="responsive-img" />
+        </div>
+        <div class="col s6 m3 l3">
+          <img src="/img/zdjecie9.jpg" alt="" class="responsive-img" />
+        </div>
+      </div>
     <div class="row container">
-        <div class="col">
+        <div class="col" id="emergency">
             <h3>Wiedza i doświadczenie sprawia, że nie boimy się wyzwań.</h3>
             <p>Usuwamy awarie, naprawiamy usterki.
                 Niestety, jesteśmy wzywani dopiero, gdy dojdzie już do awarii, której można by uniknąć, wykonując wcześniej przegląd instalacji elektrycznej.
             </p>
             <p>
-                Poniżej prezentujemy kilka zdjęć pokazujących przykłady złego montażu jak i skutki zaniedbań, które mogą okazać się tragiczne w skutkach (utrata zdrowia, życia, pożar). Ciężko to przyznać, ale poprawiamy również po "kolegach po fachu" ( np. elektryk z firmy montującej panele fotowoltaiczne źle podłączył instalację elektryczną paneli do rozdzielni, skutek: wypalenie styków i przegrzanie kabli, jeszcze chwila i skończyłoby się pożarem rozdzielni).
+                Poniżej prezentujemy kilka zdjęć pokazujących przykłady złego montażu jak i skutki zaniedbań, które mogą okazać się tragiczne w skutkach (utrata zdrowia, życia, pożar). Ciężko to przyznać, ale poprawiamy również po "kolegach po fachu" (np. elektryk z firmy montującej panele fotowoltaiczne źle podłączył instalację elektryczną paneli do rozdzielni, skutek: wypalenie styków i przegrzanie kabli, jeszcze chwila i skończyłoby się pożarem rozdzielni).
             </p>
         </div>
     </div>
     <div class="row">
-        <div class="col s6 m4 l4">
+        <div class="col s4 m4 l4">
           <img src="/img/awaria1.jpg" alt="" class="responsive-img" />
         </div>
-        <div class="col s6 m4 l4">
+        <div class="col s4 m4 l4">
           <img src="/img/awaria2.jpg" alt="" class="responsive-img" />
         </div>
-        <div class="col s6 m4 l4">
+        <div class="col s4 m4 l4">
           <img src="/img/awaria3.jpg" alt="" class="responsive-img" />
         </div>
       </div>
@@ -135,6 +156,29 @@
           <img src="/img/awaria5.jpg" alt="" class="responsive-img" />
         </div>
       </div>
+      <div class="row container">
+          <div class="col">
+              <h2>Chcesz kupić nieruchomość?</h2>
+              <p>Jeżeli stoicie Państwo przed zakupem używanej nieruchomości, warto poradzić się fachowca z dziedziny elektryki. Często po zakupie okazuje się, że instalacja nie spełnia norm, jest przestarzała i nadaje się tylko do wymiany. Znając przewidywaną cenę wymiany instalacji, jesteście w Państwo w stanie obniżyć koszt zakupu nieruchomości o w/w kwotę. </p>
+            </div>
+        </div>
+        <div class="row container">
+            <div class="col" id="where"><h2>Obszar wykonywanych usług:</h2><p>Pracujemy na terenie gmin:
+                <li>Kąty Wrocławskie</li>
+                <li>Kobierzyce</li>
+                <li>Mietków</li>
+                <li>Sobótka</li>
+                <li>Żórawina</li>
+                <li>Wrocław</li></p>
+            <p>Nie jest problemem dla nas większa odległość na terenie województwa dolnośląskiego.
+                Działamy legalnie, wystawiamy rachunek za wykonaną usługę.</p></div>
+        </div>
+        <div class="row container" id="contact">
+            <div class="col"><h4>Skontaktuj się z nami:</h4>
+                <p><i class="material-icons tiny">phone</i> 720 124 124</p>
+                <p><i class="material-icons tiny">mail</i> <a href="mailto:pogromcypradu@gmail.com">pogromcypradu@gmail.com</a></p></div>
+            
+        </div>
     <!-- Compiled and minified jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->

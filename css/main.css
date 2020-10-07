@@ -1,1 +1,1 @@
-.flashlight{transform:rotate(90deg)}.header{padding:0.75rem}.feature{align-items:center}
+*{margin:0}h1,h2,h3,h4,h5{font-family:'Oswald', sans-serif}h2{margin-top:0}p{padding-bottom:1rem}a{color:black}body{font-family:'Lato', sans-serif;font-size:1.2rem;text-align:justify}.brand-logo{font-family:'Oswald', sans-serif}.flashlight{transform:rotate(90deg)}.header{padding:0.75rem}.feature{padding-top:20px;align-items:center;display:flex}
