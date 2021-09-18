@@ -1,1 +1,92 @@
-*{margin:0}h1,h2,h3,h4,h5{font-family:'Oswald', sans-serif}h2{margin-top:0}p{padding-bottom:1rem}a{color:black}span{font-weight:bold}li{text-align:left}.col li{line-height:4.5vh}body{font-family:'Lato', sans-serif;font-size:1.2rem;text-align:justify}nav .brand-logo{font-family:'Oswald', sans-serif;font-size:1.4rem}.flashlight{transform:rotate(90deg)}.header{padding:0.75rem}.feature{padding-top:20px;align-items:center;display:flex}
+/* line 1, ../../../../../../../../../../../../../Users/sazarzycki/Documents/GitHub/pogramcy-pradu/scss/main.scss */
+* {
+  margin: 0;
+}
+
+/* line 5, ../../../../../../../../../../../../../Users/sazarzycki/Documents/GitHub/pogramcy-pradu/scss/main.scss */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* line 13, ../../../../../../../../../../../../../Users/sazarzycki/Documents/GitHub/pogramcy-pradu/scss/main.scss */
+h2 {
+  margin-top: 0;
+}
+
+/* line 17, ../../../../../../../../../../../../../Users/sazarzycki/Documents/GitHub/pogramcy-pradu/scss/main.scss */
+p {
+  padding-bottom: 1rem;
+  line-height: 28px;
+}
+
+/* line 22, ../../../../../../../../../../../../../Users/sazarzycki/Documents/GitHub/pogramcy-pradu/scss/main.scss */
+a {
+  color: black;
+}
+
+/* line 26, ../../../../../../../../../../../../../Users/sazarzycki/Documents/GitHub/pogramcy-pradu/scss/main.scss */
+span {
+  font-weight: bold;
+}
+
+/* line 30, ../../../../../../../../../../../../../Users/sazarzycki/Documents/GitHub/pogramcy-pradu/scss/main.scss */
+li {
+  text-align: left;
+}
+
+/* line 35, ../../../../../../../../../../../../../Users/sazarzycki/Documents/GitHub/pogramcy-pradu/scss/main.scss */
+.col li {
+  line-height: 28px;
+}
+
+/* line 40, ../../../../../../../../../../../../../Users/sazarzycki/Documents/GitHub/pogramcy-pradu/scss/main.scss */
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+/* line 46, ../../../../../../../../../../../../../Users/sazarzycki/Documents/GitHub/pogramcy-pradu/scss/main.scss */
+nav .brand-logo {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.4rem;
+}
+
+/* line 51, ../../../../../../../../../../../../../Users/sazarzycki/Documents/GitHub/pogramcy-pradu/scss/main.scss */
+.flashlight {
+  transform: rotate(90deg);
+}
+
+/* line 55, ../../../../../../../../../../../../../Users/sazarzycki/Documents/GitHub/pogramcy-pradu/scss/main.scss */
+.header {
+  padding: 0.75rem;
+}
+
+/* line 59, ../../../../../../../../../../../../../Users/sazarzycki/Documents/GitHub/pogramcy-pradu/scss/main.scss */
+.feature {
+  padding-top: 20px;
+  align-items: center;
+  display: flex;
+}
+
+/* line 65, ../../../../../../../../../../../../../Users/sazarzycki/Documents/GitHub/pogramcy-pradu/scss/main.scss */
+.map-img-container {
+  width: 100%;
+}
+
+/* line 67, ../../../../../../../../../../../../../Users/sazarzycki/Documents/GitHub/pogramcy-pradu/scss/main.scss */
+.map-img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 73, ../../../../../../../../../../../../../Users/sazarzycki/Documents/GitHub/pogramcy-pradu/scss/main.scss */
+.map-link {
+  color: white !important;
+}
+
+/*# sourceMappingURL=main.css.map */
